@@ -1,0 +1,26 @@
+<employees company="al quresh carpentry">
+	<employee name="Sajid">
+		<type>War, Thriller</type>
+		<format>DVD</format>
+		<year>2003</year>
+		<rating>PG</rating>
+		<stars>10</stars>
+		<description>Talk about a US-Japan war</description>
+	</employee>
+	<employee name="Imran">
+		<type>War, Thriller</type>
+		<format>DVD</format>
+		<year>2003</year>
+		<rating>PG</rating>
+		<stars>10</stars>
+		<description>Talk about a US-Japan war</description>
+	</employee>
+	<employee name="Adnan">
+		<type>War, Thriller</type>
+		<format>DVD</format>
+		<year>2003</year>
+		<rating>PG</rating>
+		<stars>10</stars>
+		<description>Talk about a US-Japan war</description>
+	</employee>
+</employees>
