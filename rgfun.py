@@ -25,7 +25,7 @@ def get_int(message,x=""):
 def check_inp(inp,x):
 	if x = "Year":
 		
-	
+	pass
 
 
 if __name__ == "__main__":
