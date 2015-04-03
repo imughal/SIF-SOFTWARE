@@ -23,10 +23,10 @@ def get_int(message,x=""):
 	return new_int
 
 def check_inp(inp,x):
-	if x = "Year":
+	if x == "Year":
 		
-	pass
-
+		pass
+#still not figured out how to comlete it.
 
 if __name__ == "__main__":
 	print "Error-Invalid File to Run- Please Run main.py."
