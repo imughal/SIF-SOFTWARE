@@ -1,9 +1,12 @@
-<employees company="al quresh carpentry" brno="604720106">
-	<employee name="Sajid">
+<employees company="al quresh carpentry" brno="604720106" cocode="0000000004245">
+	<employee name="Sajid" company="Carpentry">
 		<IBAN>AE760470000090102523859</IBAN>
 		<lcard>30102047728338</lcard>
 		<basic>800</basic>
 	</employee>
-	
-	
+	<employee name="Sajid" company="Carpentry">
+		<IBAN>AE760470000090102523859</IBAN>
+		<lcard>30102047728338</lcard>
+		<basic>800</basic>
+	</employee>
 </employees>
