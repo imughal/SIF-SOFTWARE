@@ -21,6 +21,7 @@ def get_int(message,x=""):
 		except:
 			print "Invalid Input"
 	return new_int
+#still not figured out how to comlete it.
 
 def check_inp(inp,x):
 	if x == "Year":

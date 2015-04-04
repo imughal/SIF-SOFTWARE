@@ -12,8 +12,9 @@ class xmlDataBase(object):
 		self.DOMTree = xml.dom.minidom.parse(xmlFile)
 		self.collection = self.DOMTree.documentElement
 
-	def data(self,dataList):
-
+	def dataImp(self):
+		
+		dataList = []
 		self.collection.getAttribute("company")
 		self.collection.getAttribute("brno")
 
@@ -37,17 +38,6 @@ class xmlDataBase(object):
 			#print "basic:",newemp.basic
 			
 			dataList.append(newemp)
+		
+		return dataList
 			
-			
-dataemp = []
-newPrint = xmlDataBase("employees.xml")
-newPrint.data(dataemp)
-for i in dataemp:
-	print i.name
-	print i.iban
-	print i.basic
-	print i.lcard
-	print i.company
-	print i.brno
-	print i.cocode
-	br()
