@@ -7,11 +7,6 @@ from rgfun import *
 newPrint = xmlClass.xmlDataBase("employees.xml")
 empData = newPrint.dataImp()
 for i in empData:
-	print i.name
-	print i.iban
-	print i.basic
-	print i.lcard
-	print i.company
-	print i.brno
-	print i.cocode
+	newa = [i.name,i.iban,i.basic,i.lcard,i.company,i.brno,i.cocode]
+	print newa[2]
 	br()

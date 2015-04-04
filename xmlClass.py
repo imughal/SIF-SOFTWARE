@@ -41,3 +41,6 @@ class xmlDataBase(object):
 		
 		return dataList
 			
+			
+if __name__ == "__main__":
+	print "Error, Cannot Execute"

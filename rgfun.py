@@ -30,4 +30,4 @@ def check_inp(inp,x):
 #still not figured out how to comlete it.
 
 if __name__ == "__main__":
-	print "Error-Invalid File to Run- Please Run main.py."
+	print "Error, Cannot Execute"
