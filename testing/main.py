@@ -1,10 +1,8 @@
-import xml.etree.cElementTree as ET
+#!/usr/bin/python
+import calendar,time
 
-root = ET.Element("root")
-doc = ET.SubElement(root, "doc")
 
-ET.SubElement(doc, "field1", name="blah").text = "Karachi"
-ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
+class SIFData(object):
+    def __init__(self):
+        self.self = self
 
-tree = ET.ElementTree(root)
-tree.write("filename.xml")
