@@ -2,6 +2,7 @@
 # Importing
 import xmlClass
 from rgfun import *
+from xmlExpClass import *
 
 # new
 
@@ -13,3 +14,4 @@ for i in empData:
     for k in newa:
         print k
     br()
+xmlExport("employees.xml",empData)
