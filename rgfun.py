@@ -52,6 +52,4 @@ def check_inp(inp,x):
 #still not figured out how to comlete it.
 
 if __name__ == "__main__":
-        k = get_int("Enter: ","year")
-        print k
         print "Error, Cannot Execute"

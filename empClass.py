@@ -1,5 +1,3 @@
-from rgfun import *
-
 class xEmployee(object):
 	basic = 0
 	fullname = ""
