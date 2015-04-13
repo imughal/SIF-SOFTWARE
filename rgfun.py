@@ -26,6 +26,7 @@ def get_int(message,x=""):
         return new_int
         
 #still not figured out how to complete this.
+#GotiT will continue this...................
 
 def check_inp(inp,x):
         if x == "year":
